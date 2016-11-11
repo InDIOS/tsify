@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 **/.tmp*
 !test/globalTransform/node_modules
+.vscode
+jsconfig.json

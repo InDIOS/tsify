@@ -1,7 +1,7 @@
 {
-  "name": "tsify",
-  "version": "2.0.2",
-  "description": "Browserify plugin for compiling Typescript",
+  "name": "vue-tsify",
+  "version": "1.0.0",
+  "description": "Browserify plugin for use Vue with Typescript and Decorators",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -15,7 +15,8 @@
   "keywords": [
     "browserify",
     "browserify-plugin",
-    "typescript"
+    "typescript",
+    "vue"
   ],
   "author": "Greg Smith",
   "license": "MIT",
@@ -29,10 +30,18 @@
   "dependencies": {
     "convert-source-map": "^1.1.0",
     "fs.realpath": "^1.0.0",
+		"hash-sum": "^1.0.2",
+    "html-minifier": "^3.1.0",
+		"minimatch": "^3.0.3",
     "object-assign": "^4.1.0",
+		"preprocess":"^3.1.0",
     "semver": "^5.1.0",
     "through2": "^2.0.0",
-    "tsconfig": "^5.0.3"
+    "tsconfig": "^5.0.3",
+		"ud":"^3.1.0",
+		"vue-hot-reload-api": "^1.3.3",
+		"vue-template-validator":"^1.1.5",
+		"vue-ts-decorator":"^0.1.0"
   },
   "devDependencies": {
     "babel-preset-react": "^6.5.0",
