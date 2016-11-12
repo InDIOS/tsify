@@ -1,16 +1,22 @@
 {
   "name": "vue-tsify",
-  "version": "1.0.0",
-  "description": "Browserify plugin for use Vue with Typescript and Decorators",
+  "version": "0.1.0",
+  "description": "A Fork of Tsify plugin for use Vue with Typescript and Decorators",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "test-peer-range browserify",
     "test-main": "node test/test.js"
   },
+	"maintainers": [
+    {
+      "name": "InDIOS",
+      "email": "robert04siel@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/TypeStrong/tsify"
+    "url": "git://github.com/InDIOS/vue-tsify.git"
   },
   "keywords": [
     "browserify",
@@ -21,9 +27,9 @@
   "author": "Greg Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TypeStrong/tsify/issues"
+    "url": "https://github.com/InDIOS/vue-tsify/issues"
   },
-  "homepage": "https://github.com/TypeStrong/tsify",
+  "homepage": "https://github.com/InDIOS/vue-tsify",
   "engines": {
     "node": ">=0.12"
   },
