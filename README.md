@@ -1,13 +1,8 @@
-# tsify
+# vue-tsify
+
+Fork of [**tsify**](https://github.com/TypeStrong/tsify) that allow working with Typescript Decorators and Vue.js.
 
 [Browserify](http://browserify.org/) plugin for compiling [TypeScript](http://www.typescriptlang.org/)
-
-[![NPM version](https://img.shields.io/npm/v/tsify.svg)](https://www.npmjs.com/package/tsify)
-[![Downloads](http://img.shields.io/npm/dm/tsify.svg)](https://npmjs.org/package/tsify)
-[![Build status](https://img.shields.io/travis/TypeStrong/tsify.svg)](http://travis-ci.org/TypeStrong/tsify)
-[![Dependency status](https://img.shields.io/david/TypeStrong/tsify.svg)](https://david-dm.org/TypeStrong/tsify)
-[![devDependency Status](https://img.shields.io/david/dev/TypeStrong/tsify.svg)](https://david-dm.org/TypeStrong/tsify#info=devDependencies)
-[![peerDependency Status](https://img.shields.io/david/peer/TypeStrong/tsify.svg)](https://david-dm.org/TypeStrong/tsify#info=peerDependencies)
 
 # Example Usage
 
