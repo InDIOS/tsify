@@ -20,29 +20,30 @@ Since it runs on tsify, the usage is identically to work with tsify module. Just
  put the relative url, it will be converted in a required
  module properly, is the same with `styleUrl` property. You can use
  whatever options you want. Eg:
-  ```javascript
-  // Use of templateUrl property
-  @Component({
-    templateUrl: './relative/path/to/template.html'
-    // ...
-  })
-  // Or use
-  @Component({
-    template: require('./relative/path/to/template.html')
-    // ...
-  })
-  /**************************************************/
-  // Use of styleUrl property
-  @Component({
-    styleUrl: './relative/path/to/style'/* or */'./relative/path/to/style.css'
-    // ...
-  })
-  // Or use
-  @Component({
-    style: require('./relative/path/to/style')/* or */require('./relative/path/to/style.css')
-    // ...
-  })
-  ```
+
+```javascript
+// Use of templateUrl property
+@Component({
+	templateUrl: './relative/path/to/template.html'
+	// ...
+})
+// Or use
+@Component({
+	template: require('./relative/path/to/template.html')
+	// ...
+})
+/**************************************************/
+// Use of styleUrl property
+@Component({
+	styleUrl: './relative/path/to/style'/* or */'./relative/path/to/style.css'
+	// ...
+})
+// Or use
+@Component({
+	style: require('./relative/path/to/style')/* or */require('./relative/path/to/style.css')
+	// ...
+})
+```
 # Options
 * All the tsify options are available.
 * In the tsify options, you can use the `vueOptions` with this properties:
