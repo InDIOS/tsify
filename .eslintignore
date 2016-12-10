@@ -1,3 +1,4 @@
 node_modules
 examples/**/*.js
 test/**/*.js
+lib/hmr-partial.js
