@@ -35,18 +35,18 @@ Since it runs on tsify, the usage is identically to work with tsify module. Just
 /**************************************************/
 // Use of styleUrl property
 @Component({
-	// Use this way for js styles with Absurd-CSS
+  // Use this way for js styles with Absurd-CSS
   styleUrl: './relative/path/to/style'
-	/* or */
-	styleUrl: './relative/path/to/style.css'
+  /* or */
+  styleUrl: './relative/path/to/style.css'
   // ...
 })
 // Or use
 @Component({
-	// Use this way for js styles with Absurd-CSS
+  // Use this way for js styles with Absurd-CSS
   style: require('./relative/path/to/style')
-	/* or */
-	style: require('./relative/path/to/style.css')
+  /* or */
+  style: require('./relative/path/to/style.css')
   // ...
 })
 ```
