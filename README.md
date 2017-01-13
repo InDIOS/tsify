@@ -24,28 +24,34 @@ Since it runs on tsify, the usage is identically to work with tsify module. Just
 ```javascript
 // Use of templateUrl property
 @Component({
-	templateUrl: './relative/path/to/template.html'
-	// ...
+  templateUrl: './relative/path/to/template.html'
+  // ...
 })
 // Or use
 @Component({
-	template: require('./relative/path/to/template.html')
-	// ...
+  template: require('./relative/path/to/template.html')
+  // ...
 })
 /**************************************************/
 // Use of styleUrl property
 @Component({
-	styleUrl: './relative/path/to/style'/* or */'./relative/path/to/style.css'
-	// ...
+	// Use this way for js styles with Absurd-CSS
+  styleUrl: './relative/path/to/style'
+	/* or */
+	styleUrl: './relative/path/to/style.css'
+  // ...
 })
 // Or use
 @Component({
-	style: require('./relative/path/to/style')/* or */require('./relative/path/to/style.css')
-	// ...
+	// Use this way for js styles with Absurd-CSS
+  style: require('./relative/path/to/style')
+	/* or */
+	style: require('./relative/path/to/style.css')
+  // ...
 })
 ```
 # Options
-* All the tsify options are available.
+* All the [**tsify**](https://github.com/TypeStrong/tsify) options are available.
 * In the tsify options, you can use the `vueOptions` with this properties:
   * `htmlMinify`: the options of [html-minifier](https://github.com/kangax/html-minifier) module.
   * `minifyCss`: `true` if you want minify the CSS or false if you don't (default to `false`).
