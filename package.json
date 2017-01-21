@@ -1,6 +1,6 @@
 {
 	"name": "vue-tsify",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A Fork of Tsify plugin for use Vue with Typescript and Decorators",
 	"main": "index.js",
 	"scripts": {
