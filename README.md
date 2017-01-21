@@ -12,7 +12,9 @@ Fork of [**tsify**](https://github.com/TypeStrong/tsify) that allow working with
 
 # Usage
 
-Since it runs on tsify, the usage is identically to work with tsify module. Just change some things:
+Since it runs on tsify, the usage is identically to work with [**tsify**](https://github.com/TypeStrong/tsify) module. Just change some things:
+
+> Note: In the example below, is assumed that you are using vue-ts-decorate module.
 
 * When you use a html template you don't need
  use other browserify transformation, in the component 
@@ -58,4 +60,4 @@ Since it runs on tsify, the usage is identically to work with tsify module. Just
   * `includeHmrFiles`: if you want include HMR module in other files, put an array of files path to include (default to `[]`).
 * Also in the tsify options, you can use the `preprocess` option with an object of values to use in the `preprocess` scope.
 
-> **NOTE:** By default every file with @Component, @Directive, @Filter and @Mixin decorators are included in HMR includes option.
+> **NOTE:** By default every file with @Component and @Mixin decorators are included in HMR includes option.
